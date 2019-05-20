@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyAGt3z6Xdy0lovv7SHcYaoLKH9VsZbwjGc",
-    authDomain: "movie-category-comparator.firebaseapp.com",
-    databaseURL: "https://movie-category-comparator.firebaseio.com",
-    projectId: "movie-category-comparator",
-    storageBucket: "movie-category-comparator.appspot.com",
-    messagingSenderId: "443270413667",
-    appId: "1:443270413667:web:741744b4f46a76b7"
+    apiKey: "AIzaSyAsV2Ne2gXB7DsVPmsVcyUSy9E_5zMY2GI",
+    authDomain: "movie-category-comparato-35164.firebaseapp.com",
+    databaseURL: "https://movie-category-comparato-35164.firebaseio.com",
+    projectId: "movie-category-comparato-35164",
+    storageBucket: "movie-category-comparato-35164.appspot.com",
+    messagingSenderId: "45902489401",
+    appId: "1:45902489401:web:6da17b1a29891a7b"
   }
 };
 

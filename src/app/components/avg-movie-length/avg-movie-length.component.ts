@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Movie } from '../../../models/movie.model';
-import { IResponse } from '../../../models/response.model';
+import { Movie } from '../../models/movie.model';
+import { IResponse } from '../../models/response.model';
 
-import { MovieService } from '../../../services/movie.service';
+import { MovieService } from '../../services/movie.service';
 
-import * as CanvasJS from '../../../../assets/js/canvasjs.min.js';
+import * as CanvasJS from '../../../assets/js/canvasjs.min.js';
 
 @Component({
   selector: 'app-avg-movie-length',
@@ -62,7 +62,7 @@ export class AvgMovieLengthComponent implements OnInit {
       data: [{
         type: "pie",
         dataPoints: [
-          { y: this.avgActionLength, label: "Action" },
+          { y: this.avgActionLength, label: "Action", link: "asd" },
           { y: this.avgDramaLength, label: "Drama" },
           { y: this.avgRomanticLength, label: "Romantic" },
           { y: this.avgThrillerLenght, label: "Thriller" },

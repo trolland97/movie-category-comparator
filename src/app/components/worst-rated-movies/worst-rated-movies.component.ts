@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Movie } from '../../../models/movie.model';
-import { IResponse } from '../../../models/response.model';
+import { Movie } from '../../models/movie.model';
+import { IResponse } from '../../models/response.model';
 
-import { MovieService } from '../../../services/movie.service';
+import { MovieService } from '../../services/movie.service';
 
-import * as CanvasJS from '../../../../assets/js/canvasjs.min.js';
+import * as CanvasJS from '../../../assets/js/canvasjs.min.js';
 
 @Component({
   selector: 'app-worst-rated-movies',
